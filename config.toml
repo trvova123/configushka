@@ -5,6 +5,11 @@
 [server]
 rules_header = "Правила сервера Orienta"
 
+[manifest]
+defaultWindowTitle: Space Station 14 - Orienta Station [RU]
+windowIconSet: /Textures/Logo/icon-ru
+splashLogo: /Textures/Logo/logo-ru.png
+
 [rules]
 time = 30
 
