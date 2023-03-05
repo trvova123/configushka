@@ -2,6 +2,14 @@
 # Remember that if this is in bin/Content.Server or such, it may be overwritten on build.
 # Consider copying it and using the --config-file and --data-dir options.
 
+[server]
+rules_header = "Правила сервера Orienta"
+
+[rules]
+time = 30
+
+
+
 [log]
 path = "logs"
 format = "log_%(date)s-%(time)s.txt"
@@ -31,8 +39,14 @@ enabled = true
 #  by default the launcher will assume the address and port match that of the status server.
 # connectaddress = "udp://localhost:1212"
 
+[infolinks]
+discord = "https://discord.gg/rYM77mAxkN"
+wiki = "station14.ru/wiki/"
+github = "https://github.com/trvova123/orienta-ss14-build"
+
 [game]
 hostname = "[RU][MRP]⚛ Orienta Corp. | ⚔️st.Amadis"
+desc = "Активно развивающийся проект. Набираем персонал! Имеется ТТС, заходи и играй с нами!"
 
 [console]
 # If this is true, people connecting from this machine (loopback)
